@@ -20,6 +20,3 @@ EXPOSE 80 443
 
 # Start nginx in the foreground
 CMD ["nginx", "-g", "daemon off;"]
-
-# Ensure ollama can run (example: starting a Python app)
-# CMD ["python3", "main.py"] # Uncomment and modify based on the actual entry point
