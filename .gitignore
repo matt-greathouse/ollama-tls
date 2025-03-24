@@ -1,3 +1,6 @@
-server.*
+*.crt
+*.key
+*.csr
+*.srl
 .idea
 .ra-aid
